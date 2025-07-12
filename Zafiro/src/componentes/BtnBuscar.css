@@ -1,0 +1,10 @@
+.BBuscar {
+    background-color: #005AA9;
+    color: white;
+    font-size: medium;
+    max-width: fit-content;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    right: 0;
+}

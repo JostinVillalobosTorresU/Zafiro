@@ -1,0 +1,47 @@
+.buscarContenido {
+  z-index: 2;
+  max-width: 1200px;
+  width: 1200px;
+  padding: 10px;
+}
+
+.buscarCabecera {
+  background-color: #ffff;
+  padding: 0 30px;
+  margin-bottom: 10px;  
+  align-items: center;
+  text-align: center;
+}
+
+.contmapa {
+  background-color: #ffff;
+  padding: 15px 50px 10px 50px;
+  height: 400px;
+  /*display: flex;
+  flex-direction: column;*/
+}
+
+header img {
+  max-width: 200px;
+  max-height: 60px;
+
+}
+
+.separador-vertical {
+  width: 3px;             /* Grosor */
+  height: 60px;          /* Altura */
+  background-color: #ccc; /* Color */
+  margin: 0 1rem;         /* Espaciado horizontal */
+}
+
+.contendorCancelMap {
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.cancelMap {
+  font-size: 4rem;
+  font-weight: lighter;
+
+}

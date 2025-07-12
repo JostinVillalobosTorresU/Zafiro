@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.contenedorBuscar {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+}
+
+.bgimgb01 {
+    background-image: url('../img/buscar01.png');
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    margin: 0;
+    padding: 0;
+}
+
+.bgimgb02 {
+    background-image: url('../img/buscar02.png');
+    background-size: 100%;
+    width: 100%;
+    height: 60vh;
+    margin: 0;
+    padding: 0;
+}

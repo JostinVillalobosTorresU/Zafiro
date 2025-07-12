@@ -1,0 +1,51 @@
+.contenedor02 {
+    padding: 10px 10px 0 0;
+}
+
+
+.info02 {
+    background-color: #F7F9FB;
+    padding: 100px 100px 50px 100px;
+    align-items: center;
+}
+
+p.textContenido {
+    margin-bottom: 3rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li header {
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    display: flex; 
+}
+
+ul li header div {
+    display: flex;
+    flex-direction: column;
+}
+
+.iconp02 {
+    font-size: 2.2rem;
+    color: #005AA9;
+    margin-right: 1rem;
+}
+
+.btnp02 {
+    background-color: #005AA9;
+    color: white;
+    text-decoration: none;
+    padding: 5px 50px;
+    border-radius: 20px;
+
+}
+
+.btnp02:hover {
+    background-color: #006dcc;
+}
+

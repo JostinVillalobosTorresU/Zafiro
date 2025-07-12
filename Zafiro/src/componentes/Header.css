@@ -1,0 +1,10 @@
+.cabecera {
+    background-color: white;
+    margin: 10px;
+    padding: 8px 20px;
+    border-radius: 25px;
+}
+
+.contenedor {
+    padding: 5px 5px 5px 5px;
+}
