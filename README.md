@@ -64,7 +64,7 @@ To get a local copy up and running follow these simple example steps.
 👤 **Luis Angel Suarez Ortega**
 👤 **Melina Alejandra Vasquez**
 
-- GitHub: [@user]([https://github.com/user](https://github.com/JostinVillalobos))
+- GitHub: [JostinVillalobos]([https://github.com/user](https://github.com/JostinVillalobos))
 - LinkedIn: [Jostin Alejandro Villalobos Torres](https://www.linkedin.com/in/dev-jostin-villalobos-torres/)
 
 - GitHub: [@user](https://github.com/user)
@@ -82,5 +82,3 @@ Feel free to check the [issues page](https://github.com/use/repository/issues).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
