@@ -64,13 +64,13 @@ To get a local copy up and running follow these simple example steps.
 👤 **Luis Angel Suarez Ortega**
 👤 **Melina Alejandra Vasquez**
 
-- GitHub: [JostinVillalobos]([https://github.com/user](https://github.com/JostinVillalobos))
+- GitHub: [JostinVillalobos](https://github.com/JostinVillalobo)
 - LinkedIn: [Jostin Alejandro Villalobos Torres](https://www.linkedin.com/in/dev-jostin-villalobos-torres/)
 
-- GitHub: [@user](https://github.com/user)
+- GitHub: [@Luis](https://github.com/user)
 - LinkedIn: [Luis]()
 
-- GitHub: [@user](https://github.com/user)
+- GitHub: [@Melina](https://github.com/user)
 - LinkedIn: [Melina]()
 
 ## 🤝 Contributing
