@@ -16,7 +16,7 @@
 }
 
 .bgimgb01 {
-    background-image: url('../img/buscar01.png');
+    background-image: url('../../img/buscar01.png');
     background-size: cover;
     width: 100%;
     height: 40vh;
@@ -25,7 +25,7 @@
 }
 
 .bgimgb02 {
-    background-image: url('../img/buscar02.png');
+    background-image: url('../../img/buscar02.png');
     background-size: 100%;
     width: 100%;
     height: 60vh;

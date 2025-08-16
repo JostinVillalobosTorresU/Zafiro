@@ -8,6 +8,6 @@ import './BtnBuscar.css';
 export function BtnBuscar ({textoB}) {
 
     return (
-        <Button href='/#' className='BBuscar'><FaSearch /> {textoB}</Button>
+        <Button href='/Destinos' className='BBuscar'><FaSearch /> {textoB}</Button>
     );
 }

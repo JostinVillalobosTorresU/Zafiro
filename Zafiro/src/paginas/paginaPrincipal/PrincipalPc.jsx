@@ -1,12 +1,10 @@
 import React from "react";
 
-import { Footer } from "../componentes/Footer";
-import { Header } from "../componentes/Header";
-import { BannerCarrusel } from "../componentes/BannerCarrusel";
-import { ContPrinc02 } from "../componentes/ContPrinc02";
-import { ContPrinc03 } from "../componentes/ContPrinc03";
-
-import "./PrincipalPc.css";
+import { Footer } from "../../componentes/Footer";
+import { Header } from "../../componentes/Header";
+import { BannerCarrusel } from "./BannerCarrusel";
+import { ContPrinc02 } from "./ContPrinc02";
+import { ContPrinc03 } from "./ContPrinc03";
 
 export function PrincipalPc () {
     return (

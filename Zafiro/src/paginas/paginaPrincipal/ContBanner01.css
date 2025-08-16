@@ -21,9 +21,17 @@
 
 .text-content {
   max-width: 600px;
-  padding: 0 2rem 2rem 2rem;
+  padding: 0 1rem 2rem 1rem;
   left: 0;
-  font-size: larger;
+}
+
+h1.carrusel1Titulo {
+  font-size: 50px;
+}
+
+p.carrusel1Texto {
+  width: 70%;
+  font-size: large;
 }
 
 .image-section img {

@@ -1,5 +1,5 @@
 import "./ContBanner01.css"
-import fondoImg from "../img/pa06.png";
+import fondoImg from "../../img/pa06.png";
 
 import { FaArrowRightLong } from "react-icons/fa6";
 
@@ -12,8 +12,8 @@ export function ContBanner01 () {
         <Row fluid className="g-0 columna">
           <div className="text-section d-flex align-items-center justify-content-center">
             <div className="text-content">
-              <h1>Vive una Experiencia Universitaria Única</h1>
-              <p>
+              <h1 className="carrusel1Titulo">Vive una Experiencia Universitaria Única</h1>
+              <p className="carrusel1Texto">
                 Descubre el mundo a través de nuestros programas de intercambio
                 universitario. Amplía tus horizontes, conoce nuevas culturas y
                 haz amigos internacionales.

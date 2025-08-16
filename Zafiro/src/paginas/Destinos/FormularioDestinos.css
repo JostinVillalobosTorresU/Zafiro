@@ -1,0 +1,97 @@
+.fdCuerpo {
+  display: block;
+  align-items: center;
+  justify-items: center;
+}
+
+.fdContForm {
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 10px;
+  max-width: 1100px;
+  border-radius: 3px;
+}
+
+.fdContFormulario {
+  display: block;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.fdContenedorImg img {
+  max-width: 170px;
+  max-height: 80px;
+  margin-bottom: 15px;
+}
+
+.fdFomularioTitulo{
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.fdFormularioTexto {
+  padding: 0 60px;
+  font-size: large;
+}
+
+.fdFormularioSubtitulo {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.fdContenedorDeplegables {
+  margin: 0 120px;
+}
+
+.fdContBotonImagen {
+  border-bottom-style: solid;
+  border-width: 1px;
+  width: 100%;
+}
+
+.dfColBoton2 {
+  display: flex;
+  justify-content: center; /* Centra el boton*/
+  align-items: center;
+}
+
+.dfColBoton3 { 
+  display: flex;
+  align-items: end;
+  justify-content: right;
+}
+
+.btnFDBuscar {
+  background-color: #005AA9;
+  color: white;
+  text-decoration: none;
+  margin: 0;
+  padding: 5px;
+  border-radius: 20px;
+  width: 160px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+
+}
+
+.btnFDBuscar p {
+  margin: 0 0 0 12px;
+  padding: 0;
+}
+
+.btnFDBuscar:hover {
+  background-color: #006dcc;
+}
+
+.fdFooter {
+  text-align: center;
+  padding: 10px 0;
+}

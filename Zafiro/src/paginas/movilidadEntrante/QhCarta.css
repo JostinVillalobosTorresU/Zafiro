@@ -1,0 +1,49 @@
+.contQhCarta {
+    width: 100%;
+}
+
+.qhCarta {
+    background-color: aqua;
+    border-radius: 0 15px 15px 0;
+}
+
+.qhFondo1 {
+    background: url("../../img/me04.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: contain;
+    height: 400px;
+    border-radius: 15px 0 0 15px;
+}
+
+.qhFondo2 {
+    background: url("../../img/me05.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: contain;
+    height: 400px;
+    border-radius: 15px 0 0 15px;
+}
+
+.qhFondo3 {
+    background: url("../../img/me06.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: contain;
+    height: 400px;
+    border-radius: 15px 0 0 15px;
+}
+
+.qhFondo4 {
+    background: url("../../img/me07.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: contain;
+    height: 400px;
+    border-radius: 15px 0 0 15px;
+}
+
+.qhNumero {
+    color: aliceblue;
+    background-color: black;
+}

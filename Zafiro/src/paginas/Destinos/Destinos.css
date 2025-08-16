@@ -1,0 +1,38 @@
+.dCuerpo {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.dContenedorFondo{
+    height: 30vh;
+    margin: 0;
+    padding: 0;
+
+}
+
+.dFondoAzul {
+    background-color: #005AA9;
+    height: 100%;
+}
+
+.dFondo1 {
+    background: url('../../img/pa11.png') no-repeat center fixed;
+    background-size: cover;
+    height: 80%;
+}
+
+.dContenedorFondo2 {
+    height: 110vh;
+    margin: 0;
+    padding: 0;
+
+}
+
+.dFondo2 {
+    background-image: url('../../img/buscar02.png');
+    background-size: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}

@@ -5,7 +5,7 @@ import { SlGraduation } from "react-icons/sl";
 import { BsFillDiagram3Fill } from "react-icons/bs";
 
 import "./ContPrinc02.css";
-import fondoImg from "../img/pa09.png";
+import fondoImg from "../../img/pa09.png";
 import { Link } from "react-router-dom";
 
 export function ContPrinc02 () {

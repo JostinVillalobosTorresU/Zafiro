@@ -21,6 +21,12 @@
   flex-direction: column;*/
 }
 
+.cBtnBusq {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
 header img {
   max-width: 200px;
   max-height: 60px;
@@ -34,14 +40,15 @@ header img {
   margin: 0 1rem;         /* Espaciado horizontal */
 }
 
-.contendorCancelMap {
-  display:flex;
-  flex-direction: column;
+.contCancelMap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;  
   width: 100%;
 }
 
-.cancelMap {
-  font-size: 4rem;
-  font-weight: lighter;
-
+.segundo {
+  width: 400px;
+  text-align-last: center ;
 }

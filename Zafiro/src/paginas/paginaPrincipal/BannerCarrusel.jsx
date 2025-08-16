@@ -6,8 +6,8 @@ import Image from 'react-bootstrap/Image';
 
 import "./BannerCarrusel.css"
 
-import p5 from "../img/pa05.jpg"
-import p12 from "../img/pa12.jpg"
+import p5 from "../../img/pa05.jpg"
+import p12 from "../../img/pa12.jpg"
 
 export function BannerCarrusel () {
     return (

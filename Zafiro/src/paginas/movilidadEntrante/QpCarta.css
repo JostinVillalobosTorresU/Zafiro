@@ -1,0 +1,60 @@
+.qpCarta {
+    max-width: 420px;
+    max-height: 420px;
+    margin: 0 20px;
+    overflow: hidden;
+    text-align: center;
+    background-color: white
+}
+
+.qpFondo1 {
+    background: url("../../img/me01.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: contain;
+    border-radius: 15px;
+    height: 100%;
+    padding: 0 10px;
+    justify-content: center;
+}
+
+.qpFondo2 {
+    background: url("../../img/me02.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: contain;
+    border-radius: 15px;
+    height: 100%;
+    padding: 0 10px;
+    justify-content: center;
+}
+
+.qpFondo3 {
+    background: url("../../img/me03.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: contain;
+    border-radius: 15px;
+    height: 100%;
+    padding: 0 10px;
+    justify-content: center;
+}
+
+.card-text {
+    padding: 15px;
+    background-color: #ffff;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-text h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+.card-text p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #666;
+}

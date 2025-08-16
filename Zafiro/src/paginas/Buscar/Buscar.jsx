@@ -1,6 +1,6 @@
 import { Container } from "react-bootstrap"
-import { Header } from "../componentes/Header"
-import { ContBuscar } from "../componentes/ContBuscar"
+import { Header } from "../../componentes/Header"
+import { ContBuscar } from "./ContBuscar"
 
 import './Buscar.css'
 
