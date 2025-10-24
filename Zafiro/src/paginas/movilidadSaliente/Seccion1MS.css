@@ -1,0 +1,320 @@
+.contenedorOndasMS {
+    position: relative;
+    margin: 0;
+    background-color: #F8F8F8;
+}
+
+.ondaMS1 {
+    position: absolute;
+    flex: 1;
+
+}
+
+/*
+.ondaMS1 svg{
+    height: 112px;
+    max-height: 112px;
+}*/
+
+.tituloOndasMS {
+    position: relative;
+    flex: 2;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.tituloOndasMS h1 {
+    font-size: large;
+    font-weight: bold;
+}
+
+.contenedorContImgTexto {
+    margin: 10px 0 0 0;
+}
+
+.contenedorImgSeccion1MS {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
+
+
+.contenedorImgSeccion1MS img {
+    height: 180px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 0 20px 0;
+}
+
+.contTextoSeccion1MS {
+    font-size: xx-small;
+    margin: 0 0 20px 0;
+    padding: 0 15px 0 0;
+    align-content: center;
+}
+
+.contTextoSeccion1MS p {
+    margin: 0;
+}
+
+.contTextoSeccion1MS ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left: 10px;
+    margin: 0;
+}
+
+/* Tablets (pantallas de al menos 768px) */
+@media(min-width: 768px) {
+    /*
+    .ondaMS1 svg{
+        height: 202px;
+        max-height: 202px;
+    }*/
+
+    .tituloOndasMS {
+        position: relative;
+        flex: 2;
+        align-items: center;
+        text-align: center;
+        height: 210px;
+        padding-top: 60px;
+    }
+
+    .tituloOndasMS h1 {
+        font-size: xx-large;
+        font-weight: bold;
+    }
+
+    .contenedorContImgTexto {
+        margin: 10px 0 0 0;
+    }
+
+    .contenedorImgSeccion1MS {
+        margin: 0;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+    }
+
+    .contenedorImgSeccion1MS img {
+        height: 250px;
+        width: 280px;
+        object-fit: cover;
+        border-radius: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 0 0 50px 0;
+    }
+
+    .contTextoSeccion1MS {
+        font-size: medium;
+        margin: 0 20px 50px 5px;
+        padding: 0 5px 0 0;
+        align-content: center;
+    }
+
+    .contTextoSeccion1MS p {
+        margin: 0;
+    }
+
+    .contTextoSeccion1MS ul {
+        list-style-type: disc;
+        list-style-position: inside;
+        padding-left: 15px;
+        margin: 0;
+    }
+
+}
+/*Tables Grandes*/
+@media (min-width: 1024px) {
+    /*
+    .ondaMS1 svg {
+        height: 270px;
+        max-height: 270px;
+    }*/
+
+    .tituloOndasMS {
+        position: relative;
+        flex: 2;
+        align-items: center;
+        text-align: center;
+        height: 280px;
+        padding-top: 60px;
+    }
+
+    .tituloOndasMS h1 {
+        font-size: 45px;
+        font-weight: bold;
+    }
+
+    .contenedorContImgTexto {
+        margin: 10px 0 0 0;
+    }
+
+    .contenedorImgSeccion1MS {
+        margin: 0 0 50px 0;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+    }
+
+    .contenedorImgSeccion1MS img {
+        height: 290px;
+        width: 380px;
+        object-fit: cover;
+        border-radius: 15px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 0;
+    }
+
+    .contTextoSeccion1MS {
+        font-size: larger;
+        margin: 0 0 50px 5px;
+        padding-right: 40px;
+        align-content: center;
+    }
+
+    .contTextoSeccion1MS p {
+        margin: 0;
+    }
+
+    .contTextoSeccion1MS ul {
+        list-style-type: disc;
+        list-style-position: inside;
+        padding-left: 20px;
+        margin: 0;
+    }
+
+}
+/*PCs o monitores pequeños*/
+@media (min-width: 1440px) {
+    /*
+    .ondaMS1 svg {
+        height: 378px;
+        max-height: 378px;
+    }*/
+
+    .tituloOndasMS {
+        position: relative;
+        flex: 2;
+        align-items: center;
+        text-align: center;
+        height: 420px;
+        padding-top: 70px;
+    }
+
+    .tituloOndasMS h1 {
+        font-size: 65px;
+        font-weight: bold;
+    }
+
+    .contenedorImgSeccion1MS {
+        margin: 0;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+    }
+
+    .contenedorImgSeccion1MS img {
+        height: 380px;
+        width: 480px;
+        object-fit: cover;
+        border-radius: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 0 0 40px 0;
+    }
+
+    .contTextoSeccion1MS {
+        font-size: x-large;
+        margin-left: 5px;
+        margin-right: 20px;
+        padding: 0 25px 0 0;
+        align-content: center;
+    }
+
+    .contTextoSeccion1MS p {
+        margin: 0;
+    }
+
+    .contTextoSeccion1MS ul {
+        list-style-type: disc;
+        list-style-position: inside;
+        padding-left: 25px;
+        margin: 0;
+    }
+
+}
+/*PCs o monitores Grandes*/
+@media (min-width: 2560px) {
+    /*
+    .ondaMS1 svg {
+        height: 600px;
+        max-height: 600px;
+    }*/
+
+    .tituloOndasMS {
+        position: relative;
+        flex: 2;
+        align-items: center;
+        text-align: center;
+        height: 680px;
+        padding-top: 70px;
+    }
+
+    .tituloOndasMS h1 {
+        font-size: 105px;
+        font-weight: bold;
+    }
+
+    .contenedorImgSeccion1MS {
+        margin: 0;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+    }
+
+    .contenedorImgSeccion1MS img {
+        height: 580px;
+        width: 880px;
+        object-fit: cover;
+        border-radius: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 0 0 40px 0;
+    }
+
+    .contTextoSeccion1MS {
+        font-size: 40px;
+        margin-left: 5px;
+        margin-right: 20px;
+        padding: 0 25px 0 0;
+        align-content: center;
+    }
+
+    .contTextoSeccion1MS p {
+        margin: 0;
+    }
+
+    .contTextoSeccion1MS ul {
+        list-style-type: disc;
+        list-style-position: inside;
+        padding-left: 40px;
+        margin: 0;
+    }
+
+}   

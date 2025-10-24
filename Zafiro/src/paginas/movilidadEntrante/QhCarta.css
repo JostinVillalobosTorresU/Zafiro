@@ -3,10 +3,21 @@
 }
 
 .qhCarta {
-    background-color: aqua;
+    background-color: white;
     border-radius: 0 15px 15px 0;
+    border-width: 0;
 }
 
+.contTextoQH {
+    margin: 0;
+    padding: 15px 20px;
+}
+
+.cuerpoTextoQH {
+    height: 100%;
+}
+
+/*Los qhFondo es la clase identificadorade de las imagenes que aparecen en la seccion de "Que hacer"*/
 .qhFondo1 {
     background: url("../../img/me04.jpg");
     background-repeat: no-repeat;
@@ -46,4 +57,18 @@
 .qhNumero {
     color: aliceblue;
     background-color: black;
+    border-radius: 15%;
+    padding: 0 8px;
+}
+
+.contCartaTextoQH {
+    padding: 0 20px;
+    margin: 0;
+    font-size: larger;
+}
+
+.qhLista {
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left: 15px;
 }

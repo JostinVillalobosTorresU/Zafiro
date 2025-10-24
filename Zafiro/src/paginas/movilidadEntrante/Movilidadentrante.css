@@ -1,14 +1,28 @@
+.contenedorME {
+    background-color: #F8F8F8;
+    padding: 0;
+    margin: 0;
+}
+
+.contenedorSme {
+    margin: 0;
+    padding: 0;
+}
+
 .contenedorQp {
     margin: 20px 0;
     padding: 0 40px;
     height: 80vh;
+    background-color: white;
 }
 
+/*tqmv, es el primer subtitulo "¿Quiénes pueden participar?"*/
 .tqmv {
     background-color: white;
     text-align: center;
     margin: 15px 0;
     padding: 20px 0;
+    font-size: 50px;
 }
 
 .qpContenedorCarta {
@@ -26,5 +40,6 @@
     text-align: center;
     margin: 15px 0;
     padding: 20px 0;
+    font-size: 50px;
 
 }

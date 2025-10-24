@@ -1,0 +1,75 @@
+.contenedorTiposMS {
+    margin: 10px 0;
+    display: flex;
+}
+
+.contenedorIndicadormunericoTMS {
+    margin: 0;
+    align-items: center;
+}
+
+.FiguraTMS {
+    width: 50px;
+    height: 50px;
+    max-width: 59;
+    max-height: 70;
+}
+
+.contenedorInfoTMS {
+    margin: 0;
+
+}
+
+.tituloTipoMS {
+    font-size: x-small;
+}
+
+.ListaTiposMS {
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left: 5px;
+    margin: 0;
+}
+
+.itenTiposMS {
+    font-size: x-small;
+}
+
+@media (min-width: 1440px) {
+    .contenedorTiposMS {
+        margin: 10px 0;
+        display: flex;
+    }
+
+    .contenedorIndicadormunericoTMS {
+        margin: 0 20px 0 20px;
+        align-items: center;
+    }
+
+    .FiguraTMS {
+        width: 100px;
+        height: 100px;
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    .contenedorInfoTMS {
+        margin: 0;
+
+    }
+
+    .tituloTipoMS {
+        font-size: xx-large;
+    }
+
+    .ListaTiposMS {
+        list-style-type: disc;
+        list-style-position: inside;
+        padding-left: 18px;
+        margin: 0;
+    }
+
+    .itenTiposMS {
+        font-size: x-large;
+    }
+}

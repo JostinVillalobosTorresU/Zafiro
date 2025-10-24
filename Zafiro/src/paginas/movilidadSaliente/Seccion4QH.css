@@ -1,0 +1,53 @@
+.contenedorTituloSeccion4QH {
+    margin: 0;
+    align-items: center;
+    justify-items: center;
+}
+
+.tituloSeccion4QH {
+    font-size: medium;
+}
+
+.contenedorCartasSeccion4QH {
+    margin: 0;
+}
+
+@media (min-width: 1440px) {
+
+    .contenedorTituloSeccion4QH {
+        margin: 0;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .tituloSeccion4QH {
+        font-size: 55px;
+    }
+
+    .contenedorCartasSeccion4QH {
+        margin: 0;
+        align-content: center;
+        justify-items: center;
+    }
+
+
+}
+
+@media (min-width: 2560px) {
+
+    .contenedorTituloSeccion4QH {
+        margin: 0;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .tituloSeccion4QH {
+        font-size: 60px;
+    }
+
+    .contenedorCartasSeccion4QH {
+        margin: 0;
+    }
+
+
+}

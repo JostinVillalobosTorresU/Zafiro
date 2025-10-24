@@ -1,0 +1,42 @@
+.contenedorSeccion1MS {
+    margin: 0;
+    padding: 0;
+    background-color: #F8F8F8;
+}
+
+.contenedorSeccion2R {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFF;
+}
+
+.contenedorSeccion3TMS {
+    margin: 0;
+    padding: 0;
+    background-color: #F8F8F8;
+}
+
+.contenedorSeccion4QH {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFF;
+}
+
+@media (min-width: 2560px) {
+
+    .contenedorSeccion1MS {
+        height: 100vh;
+    }
+
+    .contenedorSeccion2R {
+        height: 100vh;
+    }
+
+    .contenedorSeccion3TMS {
+        height: 100vh;
+    }
+
+    .contenedorSeccion4QH {
+        height: 100vh;
+    }
+}

@@ -6,10 +6,12 @@ import { MovilidadesE } from "./paginas/movilidadEntrante/Movilidadentrante";
 import { Destinos } from "./paginas/Destinos/Destinos";
 import { Login } from "./paginas/Login/Login";
 import { DescubreComo } from "./paginas/DescubreComo/DescubreComo";
+import ScrollToTop from "./componentes/ScrollToTop";
 
 export function App () {
     return (
       <BrowserRouter>
+        <ScrollToTop></ScrollToTop>
         <Routes>
           <Route path="/" element={<PrincipalPc />} />
           <Route path="/Destinos/Buscar" element={<Buscar />} />
@@ -18,7 +20,6 @@ export function App () {
           <Route path="/Destinos" element={<Destinos />} />
           <Route path="/Log-in" element={<Login />} />
           <Route path="/Descubre-como" element={<DescubreComo />} />
-
         </Routes>
       </BrowserRouter>
     );

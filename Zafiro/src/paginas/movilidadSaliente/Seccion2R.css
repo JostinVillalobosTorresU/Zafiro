@@ -1,0 +1,173 @@
+.contenedorContSeccion2R {
+    padding: 15px 0;
+    background-color: white;
+    justify-items: center;
+
+}
+
+.tituloSeccion2R {
+    font-size: medium;
+}
+
+.contenedorRequisitosS2R {
+    width: 300px;
+    max-width: 300px;
+}
+
+.contenedorRequisitosS2R div {
+    background-color: #005AA9;
+    border-radius: 7px;
+    color: white;
+    margin: 7px 0;
+    padding: 2px;
+    display: flex;
+
+}
+
+.numeroRequisitoS2R {
+    font-size: large;
+    justify-items: center;
+    align-self: center;
+    margin: 0 10px 0 10px;
+}
+
+.textoRequisitoS2R {
+    font-size: xx-small;
+    margin: 0;
+    justify-items: center;
+    align-self: center;
+}
+
+.contenedorRequisitosS2R div div {
+    display: block;
+}
+
+.contenedorRequisitosS2R div div ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left: 10px;
+    margin: 0;
+}
+
+.contenedorRequisitosS2R div div ul li {
+    font-size: xx-small;
+}
+
+@media (min-width: 1440px) {
+
+    .contenedorContSeccion2R {
+        padding: 20px 0;
+        background-color: white;
+        justify-items: center;
+
+    }
+
+    .tituloSeccion2R {
+        font-size: 55px;
+    }
+
+    .contenedorRequisitosS2R {
+        width: 1000px;
+        max-width: 1000px;
+    }
+
+    .contenedorRequisitosS2R div {
+        background-color: #005AA9;
+        border-radius: 20px;
+        color: white;
+        margin: 20px 0;
+        padding: 2px;
+        display: flex;
+
+    }
+
+    .numeroRequisitoS2R {
+        font-size: 50px;
+        font-weight:500 ;
+        justify-items: center;
+        align-self: center;
+        margin: 0 20px 0 20px;
+    }
+
+    .textoRequisitoS2R {
+        font-size: x-large;
+        margin: 0;
+        justify-items: center;
+        align-self: center;
+    }
+
+    .contenedorRequisitosS2R div div {
+        display: block;
+    }
+
+    .contenedorRequisitosS2R div div ul {
+        list-style-type: disc;
+        list-style-position: inside;
+        padding-left: 25px;
+        margin: 0;
+    }
+
+    .contenedorRequisitosS2R div div ul li {
+        font-size: x-large;
+    }
+
+}
+
+@media (min-width: 2560px) {
+
+    .contenedorContSeccion2R {
+        padding: 15px 0;
+        background-color: white;
+        justify-items: center;
+
+    }
+
+    .tituloSeccion2R {
+        font-size: 100px;
+    }
+
+    .contenedorRequisitosS2R {
+        width: 300px;
+        max-width: 300px;
+    }
+
+    .contenedorRequisitosS2R div {
+        background-color: #005AA9;
+        border-radius: 7px;
+        color: white;
+        margin: 7px 0;
+        padding: 2px;
+        display: flex;
+
+    }
+
+    .numeroRequisitoS2R {
+        font-size: large;
+        justify-items: center;
+        align-self: center;
+        margin: 0 10px 0 10px;
+    }
+
+    .textoRequisitoS2R {
+        font-size: xx-small;
+        margin: 0;
+        justify-items: center;
+        align-self: center;
+    }
+
+    .contenedorRequisitosS2R div div {
+        display: block;
+    }
+
+    .contenedorRequisitosS2R div div ul {
+        list-style-type: disc;
+        list-style-position: inside;
+        padding-left: 10px;
+        margin: 0;
+    }
+
+    .contenedorRequisitosS2R div div ul li {
+        font-size: xx-small;
+    }
+
+}

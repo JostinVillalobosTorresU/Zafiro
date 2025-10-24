@@ -1,8 +1,7 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaFacebookF, FaInstagram, FaTiktok } from 'react-icons/fa';
-
-import './Footer.css';
 import { Link } from 'react-router-dom';
+import './Footer.css';
 
 export function Footer () {
     return (

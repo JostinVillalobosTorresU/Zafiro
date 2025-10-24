@@ -1,0 +1,125 @@
+.contenedorSme{
+  text-align: center;
+  height: 100vh;
+}
+
+.contenedorOndasMe {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+/* Franja ondulada */
+.ondaME1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  color: white;
+  text-align: center;
+  background: url("../../img/OndaSME1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  object-fit: contain;
+  width: 100%;
+  height: 45vh;
+}
+
+.ondaME2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background: url("../../img/OndaSME2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  object-fit: contain;
+  width: 100%;
+  height: 47vh;
+
+}
+
+.ondaME3{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: url("../../img/OndaSME3.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  object-fit: contain;
+  width: 100%;
+  height: 50vh;
+}
+
+.SMETittulo {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.banner {
+  background: #0056a4;
+  color: white;
+  padding: 40px 20px 80px;
+  position: relative;
+}
+
+.banner h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Contenido principal */
+.contenedorContMe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: end;
+  padding: 40px 100px 40px 40px;
+  gap: 20px;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.TextoME {
+  flex: 1;
+  max-width: 800px;
+  text-align: left;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.imagenesME {
+  flex: 1;
+  min-height: 275px;
+  max-width: 355px;
+  position: relative;
+}
+
+.imagenesME img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
+  bottom: 20px;
+}
+
+.CirculoME {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: #0077cc;
+  border-radius: 50%;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.trianguloME {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
