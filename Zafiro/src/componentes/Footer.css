@@ -1,7 +1,7 @@
 .footer {
   position: relative;
   color: white;
-  padding-top: 0; /* lo genera la onda */
+  padding-top: 0;
   padding-bottom: 0;
   overflow: hidden;
 }

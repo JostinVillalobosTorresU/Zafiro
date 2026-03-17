@@ -54,3 +54,5 @@
 .contLinkRegistro1{
   margin-bottom: 30px;
 }
+
+/* No se le aplica MediaQueris a esta pagina, ya que se encuentran aplicados en las propiedades de Bootstrap*/

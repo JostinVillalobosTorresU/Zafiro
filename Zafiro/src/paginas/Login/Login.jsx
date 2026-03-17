@@ -1,4 +1,4 @@
-import { Container } from 'react-bootstrap'
+import { Container } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { Link } from "react-router-dom";
@@ -17,7 +17,7 @@ export function Login () {
                 alt="Logo de la Fundacion Universitaria Colombo Internacional"
               />
             </div>
-            <div >
+            <div>
               <p className="LgTitulo"> Portal de Intercambio Universitario</p>
             </div>
           </div>
@@ -39,13 +39,22 @@ export function Login () {
           <div className="contLinksRegistro">
             <div className="contLinkRegistro1">
               <Link
-                className="link-primary link-underline link-underline-opacity-100" to="/">
-                ¿Olvidaste tu contraseña?</Link>
+                className="link-primary link-underline link-underline-opacity-100"
+                to="/"
+              >
+                ¿Olvidaste tu contraseña?
+              </Link>
             </div>
             <div className="contLinkRegistro2">
-              <p>¿No tienes una cuenta? <Link
-                className="link-primary link-underline link-underline-opacity-100"
-                to="/">Registrate aqui</Link></p>
+              <p>
+                ¿No tienes una cuenta?{" "}
+                <Link
+                  className="link-primary link-underline link-underline-opacity-100"
+                  to="/Registra-aqui"
+                >
+                  Registrate aqui
+                </Link>
+              </p>
             </div>
           </div>
         </Form>

@@ -1,8 +1,27 @@
 .linkC {
     text-decoration: none;
     color: black;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin: 2px 10px 2px 10px;
     align-content: center;
+
+}
+
+.linkC:hover {
+    background-color: #E4EEF5;
+}
+
+@media (min-width: 1440px) {
+    .linkC {
+        text-decoration: none;
+        color: black;
+        margin-left: 25px;
+        margin-right: 25px;
+        align-content: center;
+
+    }
+
+    .linkC:hover {
+    background-color: white;
+}
 
 }

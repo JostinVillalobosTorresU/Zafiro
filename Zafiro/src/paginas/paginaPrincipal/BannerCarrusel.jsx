@@ -11,6 +11,7 @@ import p12 from "../../img/pa12.jpg"
 
 export function BannerCarrusel () {
     return (
+      <>
       <Container fluid className="carrusel p-0">
         <Carousel>
           <Carousel.Item className='hero-section'>
@@ -24,5 +25,7 @@ export function BannerCarrusel () {
           </Carousel.Item>
         </Carousel>
       </Container>
-    );
+    
+      </>
+     ); 
 }

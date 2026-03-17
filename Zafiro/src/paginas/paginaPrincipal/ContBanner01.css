@@ -2,51 +2,303 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
+  background-image: url("../../img/mapa01.png");
 }
 
-.columna {
-    height: 100vh;
+.columnab1 {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
 }
 
-/*Triangulo azul*/
-.text-section {
+/*---Triangulo azul---*/
+
+.trianguloAzul {
+  height: 600px;
+  width: 600px;
+  top: 0px;
+  left: 0px;
   position: absolute;
-  background-color: #0056b3;
-  clip-path: polygon(0 0, 50% 0, 100% 50%, 30% 100%, 0 100%);
-  color: white;
-  padding: 3rem 3rem 3rem 0;
-  max-width: 100vh;
-  height: 100vh;
+  z-index: 2;
+  clip-path: inset(150px 0px 250px 0px); /*Recortar el triangulo para simular el rectangulo azul*/
+  overflow: hidden;
+}
+
+.text-section {
+  width: 300px;
+  height: 200px;
 }
 
 .text-content {
-  max-width: 600px;
-  padding: 0 1rem 2rem 1rem;
-  left: 0;
+  position: absolute;
+  color: white;
+  width: 100%;
+  height: 100%;
+  padding: 0 0 0 0;
+  left: 50;
+  top: 50;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 3;
 }
 
-h1.carrusel1Titulo {
-  font-size: 50px;
+.carrusel1Titulo {
+  font-size: 18px;
+  padding: 0 0 0 0;
 }
 
-p.carrusel1Texto {
-  width: 70%;
-  font-size: large;
+.carrusel1Texto {
+  padding: 0 10px 0 10px;
+  margin-bottom: 5px;
+  width: 100%;
+  font-size: 10px;
+}
+
+.image-section {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+
 }
 
 .image-section img {
   object-fit: cover;
-  height: 100%;
-  border-radius: 20px 0 0 20px;
+  height: 600px;
+  width: 95%;
+  top: 10px;
+  border-radius: 20px;
 }
 
 .linkanimate {
   cursor: pointer;
-  font-weight: bold;
-  margin-left: 3rem;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0 0 0 16px;
   transition: transform 0.3s ease;
 }
 
 .linkanimate:hover {
   transform: scale(1.2);
+}
+
+@media (min-width: 1440px) {
+
+  .banner-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url("../../img/mapa01.png");
+  }
+
+  .columnab1 {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  /*Triangulo azul*/
+  .trianguloAzul {
+    display: flex;
+    left: 0;
+    top: -50px;
+    height: 850px;
+    width: 850px;
+    position: absolute;
+    clip-path: none;
+  }
+
+  .text-section{ 
+    width: 500px;
+    height: 300px;
+    background: none;
+    transform: translate(-20px, 0px);
+  }
+
+  .text-content {
+    height: 100%;
+    width: 100%;
+    padding: 0 0 0 4rem;
+    left: 0;
+    text-align: left;
+  }
+
+  .carrusel1Titulo {
+    text-indent: -1rem;
+    font-size: 36px;
+    padding: 0 0 0 5px;
+    margin: 0 0 15px 0;
+  }
+
+  .carrusel1Texto {
+    width: 100%;
+    font-size: 14px;
+    padding: 0 140px 0 0;
+    margin: 0 0 10px 0;
+  }
+
+  .image-section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+
+  }
+
+  .image-section img {
+    object-fit: cover;
+    height: 100%;
+    width: 60%;
+    border-radius: 20px 0 0 20px;
+  }
+
+  .linkanimate {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    transition: transform 0.3s ease;
+  }
+
+  .linkanimate:hover {
+    transform: scale(1.2);
+  }
+}
+
+@media (min-width: 1636px) and (max-width: 1920px){
+  .banner-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url("../../img/mapa01.png");
+  }
+
+  .columna {
+    height: 100vh;
+  }
+
+  /*Triangulo azul*/
+  .text-section {
+    position: absolute;
+    background-color: #0056b3;
+    clip-path: polygon(0 0, 50% 0, 100% 40%, 30% 100%, 0 100%);
+    color: white;
+    padding: 3rem 3rem 3rem 0;
+    max-width: 100vh;
+    height: 100vh;
+  }
+
+  .text-content {
+    width: 500px;
+    height: 500px;
+    padding: 0 1rem 2rem 1rem;
+    margin: 0 0 0 8rem;
+    left: 0;
+  }
+
+  h1.carrusel1Titulo {
+    font-size: 45px;
+  }
+
+  p.carrusel1Texto {
+    width: 85%;
+    font-size: 18px;
+  }
+
+  .image-section {
+    width: 100%;
+    height: 100%;
+  }
+
+  .image-section img {
+    object-fit: cover;
+    width: 60%;
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+  }
+
+  .linkanimate {
+    cursor: pointer;
+    font-size: 20px;  
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    transition: transform 0.3s ease;
+  }
+
+  .linkanimate:hover {
+    transform: scale(1.2);
+  }
+}
+
+@media (min-width: 2560px){
+  
+  .banner-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url("../../img/mapa01.png");
+  }
+
+  .columna {
+    height: 100vh;
+  }
+
+  /*Triangulo azul*/
+  .text-section {
+    position: absolute;
+    background-color: #0056b3;
+    clip-path: polygon(0 0, 50% 0, 100% 50%, 30% 100%, 0 100%);
+    color: white;
+    padding: 3rem 3rem 3rem 0;
+    max-width: 100vh;
+    height: 100vh;
+  }
+
+  .text-content {
+    width: 1000px;
+    height: 800px;
+    padding: 0 1rem 2rem 1rem;
+    margin: 0 0 0 10rem;
+    left: 0;
+  }
+
+  h1.carrusel1Titulo {
+    font-size: 98px;
+  }
+
+  p.carrusel1Texto {
+    width: 85%;
+    font-size: 38px;
+  }
+
+  .image-section img {
+    object-fit: cover;
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+  }
+
+  .linkanimate {
+    cursor: pointer;
+    font-size: 40px;  
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    transition: transform 0.3s ease;
+  }
+
+  .linkanimate:hover {
+    transform: scale(1.2);
+  }
 }

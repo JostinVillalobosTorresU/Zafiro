@@ -32,32 +32,30 @@ export function ContPrinc03 () {
     return (
       <>
         <Container fluid className="contenedor03">
-          <Row className="hexagon-gallery">
-            <Col>
-              <h2>Explora Nuestros Destinos</h2>
-              <p className="intro">
-                Descubre las ciudades y universidades que te esperan en tu
-                próximo intercambio.
-              </p>
-            </Col>
-            <Col>
-              <p className="intro">
-                Vive una experiencia internacional única: conoce culturas, haz
-                amigos alrededor del mundo y enriquece tu formación académica.
-              </p>
-            </Col>
-          </Row>
-          <Row>
-            <Col>
-              <div className="hexagon-grid">
+          <div className="hexagon-gallery">
+            <div className="princ03columna01">
+              <div className="cont01Texto03">
+                <h2 className="principal03titulo">Explora Nuestros Destinos</h2>
+                <p className="principal03text01">
+                  Descubre las ciudades y universidades que te esperan en tu
+                  próximo intercambio.
+                </p>
+              </div>
+              <div className="cont02Texto03">
+                <p className="principal03text02">
+                  Vive una experiencia internacional única: conoce culturas, haz
+                  amigos alrededor del mundo y enriquece tu formación académica.
+                </p>
+              </div>
+            </div>
+            <div className="hexagon-grid">
                 {imagenes.map((img, i) => (
                   <div key={i} className="hexagon">
                     <img src={img} alt={`Destino ${i + 1}`} />
                   </div>
                 ))}
-              </div>
-            </Col>
-          </Row>
+            </div>
+          </div>
         </Container>
       </>
     );

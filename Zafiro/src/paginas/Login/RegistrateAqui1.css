@@ -1,0 +1,182 @@
+.contRegistrateAqui {
+    background-color: #005AA9;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.contARbuttonExit {
+    padding: 10px 0 0 10px;
+    height: 40px;
+    width: 100%;
+}
+
+.ARMobilebuttonExit {
+    display: inline;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: lighter;
+    width: 100%;
+    height: auto;
+}
+
+.contTextRA {
+    text-align: center;
+    justify-items: center;
+    color: aliceblue;
+    padding: 1px 5px;
+    height: 140px;
+    max-height: 170px;
+    width: 100%;
+}
+
+.contTextRA h1 {
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    border-style: solid none;
+    border-width: 5px;
+    border-color: aliceblue;
+    width: 240px;
+}
+
+.contTextRA p {
+    font-size: large;
+    width: 240px;
+}
+
+.contARLinks {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.contImgLinks {
+    position: relative;
+    display: block;
+    width: 160px;
+    height: 160px;
+    transition: transform 0.3s ease;
+}
+
+.contImgLinks img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    border: 1px solid black;
+    position: absolute;
+    object-fit: cover;
+}
+
+.ARBackImg {
+    transform: rotate(5deg);
+    width: 100%;
+    height: 100%;
+}
+
+.ARFrontImg {
+    transform: rotate(-5deg);
+    width: 100%;
+    height: 100%;
+}
+
+.contImgLinks:hover {
+    transform: scale(1.05);
+}
+
+@media (min-width: 1440px) {
+
+    .contRegistrateAqui {
+        background-color: #005AA9;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        justify-items: center;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .ARMobilebuttonExit, .contARbuttonExit {
+        display: none;
+    }
+
+    .contTextRA {
+        text-align: center;
+        justify-items: center;
+        color: aliceblue;
+        padding: 15px;
+        height: 165px;
+        max-height: 170px;
+        width: 100%;
+    }
+
+    .contTextRA h1 {
+        text-transform: uppercase;
+        font-weight: lighter;
+        letter-spacing: 5px;
+        border-style: solid none;
+        border-width: 9px;
+        border-color: aliceblue;
+        width: 280px;
+    }
+
+    .contTextRA p {
+        font-size: xx-large;
+        width: 100%;
+    }
+
+    .contARLinks {
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        height: 70vh;
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .contImgLinks {
+        position: relative;
+        display: block;
+        width: 360px;
+        height: 360px;
+        transition: transform 0.3s ease;
+    }
+
+    .contImgLinks img {
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+        border: 1px solid black;
+        position: absolute;
+        object-fit: cover;
+    }
+
+    .ARBackImg {
+        transform: rotate(5deg);
+        width: 100%;
+        height: 100%;
+    }
+
+    .ARFrontImg {
+        transform: rotate(-5deg);
+        width: 100%;
+        height: 100%;
+    }
+
+    .contImgLinks:hover {
+        transform: scale(1.05);
+    }
+
+}
