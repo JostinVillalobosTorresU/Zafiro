@@ -8,6 +8,36 @@
     width: 100%;
 }
 
+/*---Clases del modal---*/
+.contARModalImgTexto {
+  padding: 10px 10px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.contARModalImgTexto img {
+    width: auto;
+    height: 70px;
+    margin: 20px 0;
+}
+
+.contARModalImgTexto h2{
+    font-size: x-large;
+}
+
+.contARModalImgTexto p{
+    font-size: larger;
+}
+
+.contARModalImgTexto form {
+  width: 100%;
+  max-width: 800px;
+}
+/*--------------------------------*/
+
 .contARbuttonExit {
     padding: 10px 0 0 10px;
     height: 40px;

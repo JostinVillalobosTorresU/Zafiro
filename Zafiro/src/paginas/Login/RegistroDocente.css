@@ -1,0 +1,167 @@
+.contRD {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contFormRD {
+  width: 300px;
+  padding: 30px 0 20px 0;
+  margin: 0 0 20px 0;
+  border-style: none solid solid solid;
+  border-color: #005AA9;
+  border-width: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formRD {
+  width: 85%;
+}
+
+.rDupload-container {
+  width: 100%;
+}
+
+/* ocultar input real */
+.rDinput-file {
+  display: none;
+}
+
+/* caja principal */
+.rDupload-box {
+  display: block;
+  width: 100%;
+  height: 120px;
+
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  background-color: #f5f5f5;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* contenido centrado */
+.rDupload-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+}
+
+/* icono */
+.rDicon {
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+/* hover */
+.upload-box:hover {
+  border-color: #005AA9;
+  background-color: white;
+}
+
+.contBotonesRD {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: right;
+  gap: 10px;
+}
+
+.rDbotones {
+  width: 90px;
+}
+
+@media (min-width: 1440px) {
+  .contRD {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contFormRD {
+    width: 1300px;
+    padding: 80px 0 20px 0;
+    margin: 0 0 20px 0;
+    border-style: none solid solid solid;
+    border-color: #005AA9;
+    border-width: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .rDupload-container {
+    width: 100%;
+  }
+
+  /* ocultar input real */
+  .rDinput-file {
+    display: none;
+  }
+
+  /* caja principal */
+  .rDupload-box {
+    display: block;
+    width: 100%;
+    height: 120px;
+
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    background-color: #f5f5f5;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  /* contenido centrado */
+  .rDupload-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+  }
+
+  /* icono */
+  .rDicon {
+    font-size: 40px;
+    margin-bottom: 5px;
+  }
+
+  /* hover */
+  .upload-box:hover {
+    border-color: #005AA9;
+    background-color: white;
+  }
+
+  .contBotonesRD {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+  }
+
+  .rDbotones {
+    width: 90px;
+  }
+}

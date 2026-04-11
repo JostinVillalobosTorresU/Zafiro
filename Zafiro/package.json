@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "bootstrap": "5.3.6",
+    "i18n-iso-countries": "^7.14.0",
     "npm": "^11.11.1",
     "pigeon-maps": "^0.22.1",
     "react": "^19.1.0",

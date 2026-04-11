@@ -1,0 +1,88 @@
+.navHR{
+    position: relative;
+    top: 0;
+}
+
+.contHRNavbar {
+    margin: 0;
+    padding: 0;
+    border-bottom: 10px solid transparent;
+
+    background: 
+    linear-gradient(white, white) padding-box,
+    linear-gradient(to right, #005AA9, #005AA9, #00C6FF, black, #005AA9, black) border-box;
+}
+
+.aRNavImg {
+    width: 30%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hRImg {
+    padding: 0;
+}
+
+#hRLogoUnicolombo {
+    width: 100px;
+    max-height: 70px;
+}
+
+.hRcontimgCabecera {
+    width: 70%;
+    height: 110%;
+}
+
+#hRimgCabecera {
+    padding: 0;
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    object-position: 100% 18%;
+}
+
+@media (min-width: 1440px) {
+    .contHRNavbar {
+        height: 200px;
+        margin: 0;
+        padding: 0;
+        border-bottom: 10px solid transparent;
+    
+        background:
+            linear-gradient(white, white) padding-box,
+            linear-gradient(to right, #005AA9, #005AA9, #00C6FF, black, #005AA9, black) border-box;
+    }
+
+    .aRNavImg {
+        width: 35%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .hRImg {
+        padding: 0;
+        height: 140px;
+    }
+
+    #hRLogoUnicolombo {
+        width: 320px;
+        max-height: 100px;
+    }
+
+    .hRcontimgCabecera {
+        width: 65%;
+        height: 110%;
+    }
+    
+    #hRimgCabecera {
+        padding: 0;
+        width: 100%;
+        height: 95.5%;
+        object-fit: cover;
+        object-position: 100% 15%;
+    }
+}
