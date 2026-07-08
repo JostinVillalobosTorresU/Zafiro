@@ -9,7 +9,11 @@ import { RegistrateAqui1 } from "./paginas/Login/RegistrateAqui1";
 import { RegistroDocente } from "./paginas/Login/RegistroDocente";
 import { DescubreComo } from "./paginas/DescubreComo/DescubreComo";
 import { REstudiantesSalientes } from "./paginas/Login/Registro_estudiantesSalientes";
+import { AdminPage } from "./paginas/adminPages/AdminPage";
 import ScrollToTop from "./componentes/ScrollToTop";
+import { ApPublicaciones } from "./paginas/adminPages/ApPublicaciones";
+import { ApNoticias } from "./paginas/adminPages/ApNoticias";
+import { ApDashboard } from "./paginas/adminPages/ApDashboard";
 
 
 export function App () {
@@ -27,6 +31,11 @@ export function App () {
           <Route path="/Registro-docente" element={<RegistroDocente/>} />
           <Route path="/Registro-estudiante-saliente" element={<REstudiantesSalientes/>} />
           <Route path="/Descubre-como" element={<DescubreComo />} />
+          <Route path="/AdminPage" element={<AdminPage/>}> 
+            <Route index path="Publicaciones" element={<ApPublicaciones/>}/>
+            <Route path="Noticias" element={<ApNoticias/>}/>
+            <Route path="Dashboard" element={<ApDashboard/>}/>
+          </Route>
         </Routes>
       </BrowserRouter>
     );

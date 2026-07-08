@@ -1,0 +1,88 @@
+.contCartaa {
+    width: 18rem;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.cartaImg {
+    margin: 0;
+    width: 18rem;
+    height: 12rem;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+
+.cartaBody {
+    width: 18rem;
+
+}
+
+.cartaTitulo {
+    font-size: medium;
+    font-weight: 700;
+}
+
+.cartaFecha {
+    padding: 0;
+    font-weight: 300;
+}
+
+.cartaAudiencia {
+    background-color: #005AA9;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 5px 20px;
+    color: #ffffff;
+}
+
+.cartaTexto {
+    padding: 0;
+    font-weight: 400;
+
+}
+
+@media (min-width: 1440px) {
+
+    .contCartaa {
+        width: 22rem;
+        border-radius: 20px;
+        align-items: center;
+    }
+
+    .cartaImg {
+        margin: 0;
+        width: 22rem;
+        height: 12rem;
+        border-radius: 20px 20px 0 0;
+        object-fit: cover;
+    }
+
+    .cartaBody {
+        width: 18rem;
+
+    }
+
+    .cartaTitulo {
+        font-size: medium;
+        font-weight: 700;
+    }
+
+    .cartaFecha {
+        padding: 0;
+        font-weight: 300;
+    }
+
+    .cartaAudiencia {
+        background-color: #005AA9;
+        width: fit-content;
+        border-radius: 10px;
+        padding: 5px 20px;
+        color: #ffffff;
+    }
+
+    .cartaTexto {
+        padding: 0;
+        font-weight: 400;
+
+    }
+}

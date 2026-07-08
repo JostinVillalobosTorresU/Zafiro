@@ -77,7 +77,7 @@ export function RegistrateAqui1 () {
               className="ARFrontImg"
             />
           </Link>
-          <Link className="contImgLinks">
+          <Link className="contImgLinks" to={"/Registro-estudiante-saliente"}>
             <img src={raqui1} alt="ra-Imagen_de_fondo" className="ARBackImg" />
             <img
               src={raqui3}
